@@ -44,6 +44,5 @@ jobs:
           cd ~/passkeys.a10a.app \
           && docker compose pull \
           && docker compose build \
-          && docker compose up -d \
-          && docker compose exec app sh -c "npx prisma migrate deploy"
+          && docker compose up -d
           '
