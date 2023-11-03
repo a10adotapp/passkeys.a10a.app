@@ -7,7 +7,7 @@ export async function db(): Promise<Database> {
     return sharedDb;
   }
 
-  sharedDb = new Database("./db.sqlite");
+  sharedDb = new Database(process.env.DB_SOURCE ?? "/tmp/db.sqlite");
 
   sharedDb.on("trace", (sql) => {
     console.log("📔", sql);
