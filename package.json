@@ -19,7 +19,6 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.7.2",
     "@simplewebauthn/typescript-types": "^8.3.4",
     "@types/node": "^20",
     "@types/react": "^18",
