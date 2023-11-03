@@ -1,0 +1,14 @@
+{
+    "name": "passkeys.a10a.app",
+    "dockerComposeFile": "compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+      "vscode": {
+        "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+        "settings": {
+          "remote.autoForwardPorts": false
+        }
+      }
+    }
+  }

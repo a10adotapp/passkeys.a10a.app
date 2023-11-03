@@ -1,0 +1,9 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/typescript-node:20-bookworm
+    container_name: passkeys-a10a-app
+    command: sleep infinity
+    volumes:
+      - ..:/workspace:cached
+    ports:
+      - 3000:3000

@@ -1,0 +1,32 @@
+{
+  "name": "passkeys-a10a-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@simplewebauthn/browser": "^8.3.4",
+    "@simplewebauthn/server": "^8.3.5",
+    "base64url": "^3.0.1",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.7.2",
+    "@simplewebauthn/typescript-types": "^8.3.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.6",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "typescript": "^5"
+  }
+}
